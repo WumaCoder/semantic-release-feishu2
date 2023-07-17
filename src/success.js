@@ -15,7 +15,7 @@ module.exports = async (pluginConfig, context) => {
   debug(`The options provided are ${JSON.stringify(pluginConfig, null, 2)}`);
 
   // Options passed by the user
-  const { skipCommit, fullReleaseNotes = true } = pluginConfig;
+  const { skipCommit, fullReleaseNotes = true, sendChangeNote = true } = pluginConfig;
   // Types of changes to post for
   const semverFilter = pluginConfig.semverFilter || ['major', 'minor', 'patch'];
   // Check to see if the filter matches any types
@@ -52,7 +52,7 @@ module.exports = async (pluginConfig, context) => {
 
   releases.forEach((release) => {
     // We want to grab the info from the github or gitlab plugin
-    if (/(github|gitlab)/.test(release.pluginName)) {
+    if (sendChangeNote) {
       // Sanitize the output of the release notes so it looks nice in feishu
       githubReleaseNotesUrl = fullReleaseNotes
         ? release.notes
