@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release-feishu",
+  "name": "semantic-release-feishu2",
   "description": "Post feishu(飞书) notifications to a webhook on success or failure of a semantic-release job",
   "version": "1.0.1",
   "engines": {
