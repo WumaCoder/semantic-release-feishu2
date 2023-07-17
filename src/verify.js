@@ -1,5 +1,5 @@
 const AggregateError = require('aggregate-error');
-const debug = require('debug')('semantic-release-feishu:verify');
+const debug = require('debug')('semantic-release-feishu2:verify');
 const resolveConfig = require('./resolve-config');
 const getError = require('./get-error');
 

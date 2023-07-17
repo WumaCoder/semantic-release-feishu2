@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const emoji = require('node-emoji');
-const debug = require('debug')('semantic-release-feishu:success');
+const debug = require('debug')('semantic-release-feishu2:success');
 // eslint-disable-next-line import/no-dynamic-require
 const { pkg } = require('read-pkg-up').sync();
 const getPlatformEmoji = require('./get-platform-emoji');

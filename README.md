@@ -1,8 +1,8 @@
-# semantic-release-feishu
+# semantic-release-feishu2
 
-[![npm](https://img.shields.io/npm/v/semantic-release-feishu.svg)](https://www.npmjs.com/package/semantic-release-feishu)
-[![CircleCI](https://circleci.com/gh/conechan/semantic-release-feishu/tree/master.svg?style=shield)](https://circleci.com/gh/conechan/semantic-release-feishu/tree/master)
-[![Known Vulnerabilities](https://snyk.io//test/github/conechan/semantic-release-feishu/badge.svg?targetFile=package.json)](https://snyk.io//test/github/conechan/semantic-release-feishu?targetFile=package.json)
+[![npm](https://img.shields.io/npm/v/semantic-release-feishu2.svg)](https://www.npmjs.com/package/semantic-release-feishu2)
+[![CircleCI](https://circleci.com/gh/WumaCoder/semantic-release-feishu2/tree/master.svg?style=shield)](https://circleci.com/gh/WumaCoder/semantic-release-feishu2/tree/master)
+[![Known Vulnerabilities](https://snyk.io//test/github/WumaCoder/semantic-release-feishu2/badge.svg?targetFile=package.json)](https://snyk.io//test/github/WumaCoder/semantic-release-feishu2?targetFile=package.json)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=shield)](https://github.com/prettier/prettier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
@@ -20,7 +20,7 @@
 ## Installation
 
 ```sh
-yarn add --dev semantic-release-feishu
+yarn add --dev semantic-release-feishu2
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ Add the following to your `release.config.js`
 ```js
   "plugins": [
     // ...
-   ["semantic-release-feishu", {
+   ["semantic-release-feishu2", {
        // These are the available platforms that the package can be downloaded from
        "platforms": ["brew", "npm", "docker"]
    }]

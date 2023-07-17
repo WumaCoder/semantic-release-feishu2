@@ -12,7 +12,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "author": "David Aghassi",
   "repository": {
-    "url": "git@github.com:conechan/semantic-release-feishu.git"
+    "url": "git@github.com:WumaCoder/semantic-release-feishu2.git"
   },
   "scripts": {
     "lint": "yarn eslint *.js",

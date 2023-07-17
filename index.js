@@ -1,4 +1,4 @@
-const debug = require('debug')('semantic-release-feishu');
+const debug = require('debug')('semantic-release-feishu2');
 const verify = require('./src/verify');
 const successCall = require('./src/success');
 const failCall = require('./src/fail');
